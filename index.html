@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--
+            se adauga relatiile intre documentul curent si cel "link-at" in href
+        -->
+        <link rel="stylesheet" href="style.css" /> 
+        <script
+            src="style.css"
+        ></script>
+
+        <!--
+            Am denumit pagina web Planificator
+        -->
+        <title>&#128717 organizer </title>
+    </head>
+    <body>
+        <div class="stil-header">
+            <!--adaugare header-->
+            <h1 class="stil-header"><center>Lista mea de cumparaturi&#128717<br></center></h1>
+        <!--
+            div = folosit ca un container pentru HTML, stilizat prin CSS sau modificat in JS
+                    imparte pe bucati diferite secvente in HTML
+        -->
+        </div>
+        <div class="primul-paragraf"><center> <h3>
+            Bine ai venit pe pagina mea! &#128075 &#128075 <br>
+            Vrei sa iti gestionezi mai usor lista de cumparaturi?&#129488 <br>
+            Tot ce trebuie sa faci este sa adaugi toate produsele de care ai nevoie.
+            (nu uita sa apesi pe butonul Adauga!) <br>
+            Odata ce ti-ai gasit produsul in sesiunea te cumparaturi, poti sa apesi pe denumirea lui din lista. <br>
+            O sa se taie precum o lista de cumparaturi clasica &#128481 <br>
+            Cand ti-ai terminat &#128717, poti sa apesi pe butonul "Am terminat" si puf &#128513
+            .</center></h3></div>
+            <br>
+            <br>
+        <div class="stil-buton"> <center>
+            <div class="input-group">
+                <div class="stil-buton2">
+                <span class="input-group-text"> Produs: </span>
+                <input
+                    id="produsNou"
+                    type="text"
+                    class="form-control"
+                    placeholder="descrie produsul"
+                /></div>
+                <button class="stil-buton3" id="btnSubmit">Adauga in lista&#10004</button>
+                <br>
+                <br>
+                <br>
+            </div></center>
+            <p class="stil-buton" id="message"></p>
+            <div class="stil-buton" id="produse"><center></div>
+            <button  class="stil-buton3" id="btnClear">
+                Am terminat&#9996
+            </button></center>
+        <br><br><br><br><br><br><br><br><br><br>
+        <p>Proiect realizat de Marin Andreea-Daniela</p>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
