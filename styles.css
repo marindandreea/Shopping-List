@@ -1,0 +1,75 @@
+body {
+    background-image: linear-gradient(rgb(180, 214, 158), rgba(127, 172, 140, 0.925));
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-size: medium;
+    margin: 10%;
+  }
+  
+.stil-header {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    line-height: 1;
+    font-family: "Comic sans","Apple Color Emoji","Segoe UI Emoji";
+    font-size: 2em;
+  }
+
+
+.primul-paragraf {
+    position: center;
+    flex-direction: row;
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO9A8rvcfbj3GKZ-D1Y_YWYVqtt1xd34iYSHJqu-uOC4zRsUIwH9OJrzY9Kx6_n0joBFs&usqp=CAU);
+    border: 3px solid rgba(20, 48, 12, 0.856);
+    border-radius: 1rem;
+    font-size: 1.6em;
+    padding: auto;
+    margin: auto;
+    font-family: "Apple Color Emoji", "Segoe UI Emoji";
+    width: fit-content;
+    background-size: contain;
+  }
+
+.img {
+margin:auto;
+    width:(30,30);
+    padding: auto;
+    opacity: 0.5;
+    border: solid rgba(190, 238, 162, 0.541);
+
+}
+
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.stil-buton {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-size:1.4em;
+    font-display:auto ;
+   
+
+}
+.stil-buton2{
+    background-attachment: fixed;
+    font-size:1.4em;
+    text-align: center;
+    font-display:auto ;
+    width:(100,100);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJco7RarTUE0lDT7yFNARdSNXvSAz69VpVMZCZwNov33Pl98PVWOUgijgboeO87vg240U&usqp=CAU);
+    padding: 15px 32px;
+    border-radius: 5%;
+}
+
+.stil-buton3{
+    background-attachment: fixed;
+    background-position: center;
+    font-size:1em;
+    font-display:auto ;
+    width:(80,80);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgAHqckq3L2SuzV2OotO-OLYQOon5AuGt_VFcag1VhC6qEyJ8noMb-xYZ6nPrD9Qct3gs&usqp=CAU);
+    padding: 15px 32px;
+}
